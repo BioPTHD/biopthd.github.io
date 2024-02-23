@@ -78,8 +78,9 @@
 		padding: 30px;
 	}
 
-	.message {
-		max-width: 100%;
+	#welcome_message {
+	/*margin: 20px;*/
+	width: 100%;
 	}
 
 	#andrea{
