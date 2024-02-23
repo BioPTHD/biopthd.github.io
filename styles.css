@@ -1,0 +1,168 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+
+@media (min-width: 1000px) {
+	body {
+		margin-top: 70px;
+		padding-left: 12%;
+		padding-right: 12%;
+		/*background-image: url("sky.jpg");*/
+		background-color: white;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*align-items: center;
+		align-content: center;
+		text-align: center;*/
+	}
+
+	#logo {
+		width: 20%;
+		height: auto;
+		align-items: center;
+	}
+
+
+	nav {
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+
+	#photo { 
+		width: 100%;
+		/*border-radius: 100%;*/
+	}
+
+	#contact {
+		font-size: 17px;
+		padding-left: 30px;
+	}
+
+	#welcome_message {
+	margin: 20px;
+	width: 60%;
+	}
+}
+
+@media (max-width: 999px) {
+	body {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-image: url("sky.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#photo { 
+		display: block;
+		width: 100%;
+		border-radius: 50%;
+		height: auto;
+	}
+
+	#contact {
+		text-align:  center;
+		font-size: 17px;
+		padding: 30px;
+	}
+
+	.message {
+		max-width: 100%;
+	}
+}
+
+.container1 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.container1 > div {
+	margin: 30px;
+}
+
+
+
+
+.responsive {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+h2 {
+	color: darkblue;
+	text-align: center; 
+	font-family: sans-serif, Helvetica, Arial Black, Lato;
+}
+
+h6 {
+	text-align: center;
+}
+
+nav {
+	list-style-type: none;
+  	overflow: hidden;
+}
+
+.navbar-fixed-top.scrolled {
+  	background-color: #f3f3f3; !important;
+  	transition: background-color 200ms linear;
+}
+
+nav a {
+  	float: left;
+  	display: block;
+  	color: #666;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+nav a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+#welcome_message {
+	margin: 40px;
+	padding-top: 40px;
+	width: 60%;
+}
+
+#form{
+	margin-top: 50px;
+	padding: 20px;
+	height: 300px;
+}
+
+input[type=text] {
+	border: none;
+	border-radius: 3px;
+	background-color: whitesmoke;
+}
+
+.message{
+	width: 400px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+button {
+  	background-color: #f3f3f3;
+  	border: none;
+  	border-radius: 7px;
+  	padding: 16px 28px;
+  	text-decoration: none;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
