@@ -34,3 +34,14 @@ h1 {
 h4 {
 	text-align: center;
 }
+
+@media (max-width: 999px) {
+	body {
+		/*padding-left: 20px;*/
+		/*padding-right: 20px;*/
+		margin-left: 3%;
+		margin-right: 3%;
+		/*background-image: url("sky.jpg");*/
+		background-repeat: no-repeat;
+		background-size: cover;
+	}

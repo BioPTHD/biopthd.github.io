@@ -21,7 +21,7 @@
 	}
 
 	#andrea{
-		width: 10%;
+		width: 130px;
 		height: auto;
 		align-items: left;
 	}
@@ -43,9 +43,12 @@
 	}
 
 	#welcome_message {
-	margin: 20px;
+	margin: 40px;
+	padding-top: 40px;
 	width: 60%;
+	margin-bottom: 120px;
 	}
+
 }
 
 @media (max-width: 999px) {
@@ -60,7 +63,7 @@
 	}
 
 	#logo {
-		width: 50%;
+		width: 40%;
 		height: auto;
 		align-items: center;
 	}
@@ -79,12 +82,14 @@
 	}
 
 	#welcome_message {
-	/*margin: 20px;*/
-	width: 100%;
+		margin: 10px;
+		width: 90%;
+		padding-top: 40px;
+		margin-bottom: 100px;
 	}
 
 	#andrea{
-		width: 50%;
+		width: 30%;
 		height: auto;
 		align-items: left;
 	}
@@ -93,14 +98,15 @@
 .container1 {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 20px;
+	padding: 10px;
 	justify-content: center;
   align-items: center;
   background-color: whitesmoke;
 }
 
 .container1 > div {
-	margin: 30px;
+	margin: 10px;
+	margin-bottom: 20px;
 }
 
 .containter2 {
@@ -161,13 +167,6 @@ nav a:hover:not(.active) {
 nav a.active {
   color: white;
   background-color: #4CAF50;
-}
-
-#welcome_message {
-	margin: 40px;
-	padding-top: 40px;
-	width: 60%;
-	margin-bottom: 120px;
 }
 
 
