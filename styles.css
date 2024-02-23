@@ -50,13 +50,19 @@
 
 @media (max-width: 999px) {
 	body {
-		padding-left: 20px;
-		padding-right: 20px;
-		margin-left: 5%;
-		margin-right: 5%;
-		background-image: url("sky.jpg");
+		/*padding-left: 20px;*/
+		/*padding-right: 20px;*/
+		margin-left: 2%;
+		margin-right: 2%;
+		/*background-image: url("sky.jpg");*/
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+
+	#logo {
+		width: 50%;
+		height: auto;
+		align-items: center;
 	}
 
 	#photo { 
@@ -74,6 +80,12 @@
 
 	.message {
 		max-width: 100%;
+	}
+
+	#andrea{
+		width: 50%;
+		height: auto;
+		align-items: left;
 	}
 }
 
