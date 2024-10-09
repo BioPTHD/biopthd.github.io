@@ -21,7 +21,7 @@ h2 {
 
 
 .container > div {
-	display: flex;
+/* 	display: flex; */
 	flex-wrap: wrap;
 	padding: 20px;
 	justify-content: center;
