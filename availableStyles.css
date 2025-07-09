@@ -55,21 +55,31 @@ h2 {
 }
 
 .card li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   line-height: 1.4;
 }
 
-.apply-btn {
-  display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.4rem 0.8rem;
-  background: #0073e6;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
+.date {
+  margin-top: 1rem;
   font-size: 0.9rem;
+  color: #999;
 }
 
-.apply-btn:hover {
-  background: #005bb5;
+.contact {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.contact a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.card > p {
+  text-align: justify;
 }
