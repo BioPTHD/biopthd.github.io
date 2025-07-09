@@ -1,51 +1,97 @@
 <!DOCTYPE html>
-<html>
-	
-	<head>
-		<title>BioPT</title>
-		<meta name="viewport" content="width=device width, initial-scale=1.0">
-		<link rel="stylesheet" href="styles.css">
-	</head>
-	
-	<body>
-		<div id="top">
-			<a class="logo"><img id="logo" src="biopt_sharc_logo.png"></a>
-		</div>
-		<nav id="navbar" class="navbar-fixed-top">
-			<a href="available.html" class="navtool">Available projects</a>
-			<a href="#contact" class="navtool">Contact</a>
-		</nav>
-		
-		<div class="container1">
-			<div>
-				<a class="navtool"><img id="photo" src="bioptgroup2.jpg"></a>
-			</div>
-		
-			<div id="labinfo"> 
-				<h2>BioPT: Biophysics in Particle Therapy</h2>
-				<br><h6> Heidelberg Ion Beam Therapy Center (HIT)
-				<span>&#8226;</span> Heidelberg, BW, Germany
-				</h6>
-			</div>
-		</div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BioPT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-		<div id="welcome_message">
-			<h4>Welcome to BioPT! <br> You can find information about our group and available thesis projects here.</h4>
-		</div>
+  <header id="top">
+    <img id="logo" src="biopt_sharc_logo.png" alt="BioPT Logo">
+    <nav id="navbar">
+      <a href="#projects" class="navtool">Available Projects</a>
+      <a href="#contact" class="navtool">Contact</a>
+    </nav>
+  </header>
 
-		<div id="contact" class="container2">
-			<h5> For more information, please contact:</h5>
-			<div>
-				<img id="andrea" src="andrea.jpg">
-			</div>
-			<div>
-				<h5>Prof. Dr. Andrea Mairani</h5>
-				<h5>andrea.mairani@med.uni-heidelberg.de</h5>
-			</div>
-		</div>
+  <main>
+    <section class="hero">
+      <img id="photo" src="bioptgroup2.jpg" alt="BioPT Group Photo">
+      <div class="labinfo">
+        <h1>BioPT: Biophysics in Particle Therapy</h1>
+        <p>Heidelberg Ion Beam Therapy Center (HIT) · Heidelberg, Germany</p>
+      </div>
+    </section>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="navbar.js"></script>
+    <section class="welcome">
+      <h2>Welcome to BioPT</h2>
+      <p>You can find information about our group and available thesis projects here.</p>
+    </section>
 
-	</body>
+    <section id="projects" class="project-section">
+      <h2>Available Master's Thesis Projects</h2>
+      <div class="grid-container">
+
+        <section class="card">
+          <h3>GPU-Accelerated Monte Carlo Dose Calculation</h3>
+          <p>
+            GPU acceleration is essential to bring Monte Carlo dose calculation into real-time clinical workflows,
+            especially for adaptive treatments guided by in-room MRI. This project focuses on porting the MonteRay dose engine
+            to GPUs to achieve a 10–20× speedup. The work involves profiling, parallelization, and CUDA development,
+            with the goal of enabling second-scale dose computation even in the presence of complex magnetic fields.
+            Special focus will be on handling inhomogeneous magnetic fields, which are unsupported by current clinical engines.
+          </p>
+          <h4>Requirements</h4>
+          <ul>
+            <li>Very good English skills</li>
+            <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
+            <li>Strong C++ and CUDA skills</li>
+            <li>Background in particle physics, medical physics, or computer science is a plus</li>
+          </ul>
+          <p class="date">Posted: 09/07/2025</p>
+          <p class="contact">
+            Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
+          </p>
+        </section>
+
+        <section class="card">
+          <h3>Mini-Beam Oxygen Ion Therapy in MonteRay</h3>
+          <p>
+            Mini-beams can reduce damage to healthy tissue by spatially fractionating the dose,
+            potentially improving tolerance in sensitive regions. Oxygen ions provide sharper dose distributions and
+            greater biological effectiveness than protons or carbon, making them attractive for resistant tumors.
+            This project extends MonteRay to support oxygen ion therapy and mini-beam treatment planning,
+            including nuclear interaction data for oxygen and relevant filter materials,
+            and implementing mini-beam geometry simulation. May include experimental validation.
+          </p>
+          <h4>Requirements</h4>
+          <ul>
+            <li>Very good English skills</li>
+            <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
+            <li>Background in particle physics, medical physics, or computer science is a plus</li>
+          </ul>
+          <p class="date">Posted: 09/07/2025</p>
+          <p class="contact">
+            Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
+          </p>
+        </section>
+
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Contact</h3>
+      <div class="contact-card">
+        <img src="andrea.jpg" alt="Prof. Dr. Andrea Mairani">
+        <div>
+          <h4>Prof. Dr. Andrea Mairani</h4>
+          <p><a href="mailto:andrea.mairani@med.uni-heidelberg.de">andrea.mairani@med.uni-heidelberg.de</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
 </html>
