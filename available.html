@@ -6,35 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="availableStyles.css">
 </head>
+
 <body>
   <header>
     <a href="home.html" id="homebutton">← Home</a>
-    <h1>Available Thesis Projects</h1>
+    <h1>Available Master's Thesis Projects</h1>
     <h2>Heidelberg Ion Beam Therapy Center (HIT)</h2>
   </header>
 
   <main class="grid-container">
     <section class="card">
-      <h3>PhD Thesis</h3>
+      <h3>GPU-Accelerated Monte Carlo Dose Calculation</h3>
+      <p>
+        GPU acceleration is essential to bring Monte Carlo dose calculation into real-time clinical workflows,
+        especially for adaptive treatments guided by in-room MRI. This project focuses on porting the MonteRay dose engine
+        to GPUs to achieve a 10–20× speedup. The work involves profiling, parallelization, and CUDA development,
+        with the goal of enabling second-scale dose computation even in the presence of complex magnetic fields.
+        Special focus will be on handling inhomogeneous magnetic fields, which are unsupported by current clinical engines.
+      </p>
+      <h4>Requirements</h4>
       <ul>
-        <li>
-          Quantification and reduction of uncertainties for online adaptive particle therapy.
-          <br><a href="https://karriere.klinikum.uni-heidelberg.de/index.php?ac=jobad&id=23373" class="apply-btn">Apply here</a>
-        </li>
+        <li>Very good English skills</li>
+        <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
+        <li>Strong C++ and CUDA skills</li>
+        <li>Background in particle physics, medical physics, or computer science is a plus</li>
       </ul>
+      <p class="date">Posted: 09/07/2025</p>
+      <p class="contact">
+        Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
+      </p>
     </section>
 
     <section class="card">
-      <h3>Master's Theses</h3>
+      <h3>Mini-Beam Oxygen Ion Therapy in MonteRay</h3>
+      <p>
+        Mini-beams can reduce damage to healthy tissue by spatially fractionating the dose,
+        potentially improving tolerance in sensitive regions. Oxygen ions provide sharper dose distributions and
+        greater biological effectiveness than protons or carbon, making them attractive for resistant tumors.
+        This project extends MonteRay to support oxygen ion therapy and mini-beam treatment planning,
+        including nuclear interaction data for oxygen and relevant filter materials,
+        and implementing mini-beam geometry simulation. May include experimental validation.
+      </p>
+      <h4>Requirements</h4>
       <ul>
-        <li>Characterization of oxygen ion beams toward clinical translation of this novel modality.</li>
-        <li>Development and validation of the fast Monte Carlo MonteRay for oxygen beams.</li>
-        <li>Towards the clinical implementation of multi-ion therapy: modelling and experimental aspects.</li>
-        <li>Biophysical studies of mini-beams with heavy charged particles.</li>
-        <li>Modelling biological effects beyond RBE.</li>
-        <li>FLASH radiotherapy: modelling and experimental studies with VHEE, proton and heavy ions.</li>
-        <li>AI-based particle dose calculations and pseudo-CT generation for MR-guided particle therapy.</li>
+        <li>Very good English skills</li>
+        <li>Experience with scripting (e.g., Python), Linux, Git</li>
+        <li>Background in particle physics, medical physics, or computer science is a plus</li>
       </ul>
+      <p class="date">Posted: 09/07/2025</p>
+      <p class="contact">
+    Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
+    </p>
     </section>
   </main>
 </body>
