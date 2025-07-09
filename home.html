@@ -8,85 +8,103 @@
 </head>
 <body>
 
-  <main class="page-wrapper">
+  <main>
 
     <section class="hero">
-      <img id="photo" src="bioptgroup2.jpg" alt="BioPT Group Photo">
+      <div class="page-wrapper">
+        <img id="photo" src="bioptgroup2.jpg" alt="BioPT Group Photo">
+      </div>
     </section>
 
     <section class="labinfo">
-      <div class="labinfo-header">
-        <img id="logo" src="biopt_sharc_logo.png" alt="BioPT Logo">
-        <div class="labinfo-text">
-          <h1>BioPT: Biophysics in Particle Therapy</h1>
-          <p>Heidelberg Ion Beam Therapy Center (HIT) · Heidelberg, Germany</p>
+      <div class="page-wrapper">
+        <div class="labinfo-header">
+          <img id="logo" src="biopt_sharc_logo.png" alt="BioPT Logo">
+          <div class="labinfo-text">
+            <h1>BioPT: Biophysics in Particle Therapy</h1>
+            <p>Heidelberg Ion Beam Therapy Center (HIT) · Heidelberg, Germany</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="welcome">
-      <h2>Welcome</h2>
-      <p>
-        BioPT is an interdisciplinary research group based at the Heidelberg Ion-Beam Therapy Center (HIT),
-        working to advance ion beam therapy for cancer treatment. We collaborate with clinicians and researchers
-        to develop biological models, simulation tools, and treatment planning approaches for particle therapy.
-      </p>
-      <p>
-        For more information about our group, please visit our official site:<br>
-        <a href="https://www.klinikum.uni-heidelberg.de/radiologische-klinik/radioonkologie-und-strahlentherapie/forschung/forschungsschwerpunkte/biophysik-in-der-partikeltherapie" target="_blank">
-          klinikum.uni-heidelberg.de → Biophysik in der Partikeltherapie
-        </a>
-      </p>
+      <div class="page-wrapper">
+        <h2>Welcome</h2>
+        <p>
+          BioPT is an interdisciplinary research group based at the Heidelberg Ion-Beam Therapy Center (HIT),
+          working to advance ion beam therapy for cancer treatment. We collaborate with clinicians and researchers
+          to develop biological models, simulation tools, and treatment planning approaches for particle therapy.
+        </p>
+        <p>
+          For more information about our group, please visit our official site:<br>
+          <a href="https://www.klinikum.uni-heidelberg.de/radiologische-klinik/radioonkologie-und-strahlentherapie/forschung/forschungsschwerpunkte/biophysik-in-der-partikeltherapie" target="_blank">
+            klinikum.uni-heidelberg.de → Biophysik in der Partikeltherapie
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section class="general-contact">
+      <div class="page-wrapper">
+        <h3>General Inquiries</h3>
+        <p>
+          For general questions or if you're interested in joining the group, please contact:<br>
+          <a href="mailto:andrea.mairani@med.uni-heidelberg.de">Prof. Dr. Andrea Mairani — andrea.mairani@med.uni-heidelberg.de</a>
+        </p>
+      </div>
     </section>
 
     <section id="projects" class="project-section">
-      <h2>Available Master's Thesis Projects</h2>
-      <div class="grid-container">
+      <div class="page-wrapper">
+        <h2>Available Master's Thesis Projects</h2>
+        <div class="grid-container">
 
-        <section class="card">
-          <h3>GPU-Accelerated Monte Carlo Dose Calculation</h3>
-          <p>
-            GPU acceleration is essential to bring Monte Carlo dose calculation into real-time clinical workflows,
-            especially for adaptive treatments guided by in-room MRI. This project focuses on porting the MonteRay dose engine
-            to GPUs to achieve a 10–20× speedup. The work involves profiling, parallelization, and CUDA development,
-            with the goal of enabling second-scale dose computation even in the presence of complex magnetic fields.
-            Special focus will be on handling inhomogeneous magnetic fields, which are unsupported by current clinical engines.
-          </p>
-          <h4>Requirements</h4>
-          <ul>
-            <li>Very good English skills</li>
-            <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
-            <li>Strong C++ and CUDA skills</li>
-            <li>Background in particle physics, medical physics, or computer science is a plus</li>
-          </ul>
-          <p class="date">Posted: 09/07/2025</p>
-          <p class="contact">
-            Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
-          </p>
-        </section>
+          <section class="card">
+            <h3>GPU-Accelerated Monte Carlo Dose Calculation</h3>
+            <p>
+              GPU acceleration is essential to bring Monte Carlo dose calculation into real-time clinical workflows,
+              especially for adaptive treatments guided by in-room MRI. This project focuses on porting the MonteRay dose engine
+              to GPUs to achieve a 10–20× speedup. The work involves profiling, parallelization, and CUDA development,
+              with the goal of enabling second-scale dose computation even in the presence of complex magnetic fields.
+              Special focus will be on handling inhomogeneous magnetic fields, which are unsupported by current clinical engines.
+            </p>
+            <h4>Requirements</h4>
+            <ul>
+              <li>Very good English skills</li>
+              <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
+              <li>Strong C++ and CUDA skills</li>
+              <li>Background in particle physics, medical physics, or computer science is a plus</li>
+            </ul>
+            <p class="date">Posted: 09/07/2025</p>
+            <p class="contact">
+               More information: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
+            </p>
+          </section>
 
-        <section class="card">
-          <h3>Mini-Beam Oxygen Ion Therapy in MonteRay</h3>
-          <p>
-            Mini-beams can reduce damage to healthy tissue by spatially fractionating the dose,
-            potentially improving tolerance in sensitive regions. Oxygen ions provide sharper dose distributions and
-            greater biological effectiveness than protons or carbon, making them attractive for resistant tumors.
-            This project extends MonteRay to support oxygen ion therapy and mini-beam treatment planning,
-            including nuclear interaction data for oxygen and relevant filter materials,
-            and implementing mini-beam geometry simulation. May include experimental validation.
-          </p>
-          <h4>Requirements</h4>
-          <ul>
-            <li>Very good English skills</li>
-            <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
-            <li>Background in particle physics, medical physics, or computer science is a plus</li>
-          </ul>
-          <p class="date">Posted: 09/07/2025</p>
-          <p class="contact">
-            Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
-          </p>
-        </section>
+          <section class="card">
+            <h3>Mini-Beam Oxygen Ion Therapy in MonteRay</h3>
+            <p>
+              Mini-beams can reduce damage to healthy tissue by spatially fractionating the dose,
+              potentially improving tolerance in sensitive regions. Oxygen ions provide sharper dose distributions and
+              greater biological effectiveness than protons or carbon, making them attractive for resistant tumors.
+              This project extends MonteRay to support oxygen ion therapy and mini-beam treatment planning,
+              including nuclear interaction data for oxygen and relevant filter materials,
+              and implementing mini-beam geometry simulation. May include experimental validation.
+            </p>
+            <h4>Requirements</h4>
+            <ul>
+              <li>Very good English skills</li>
+              <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
+              <li>Background in particle physics, medical physics, or computer science is a plus</li>
+            </ul>
+            <p class="date">Posted: 09/07/2025</p>
+            <p class="contact">
+              More information: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
+            </p>
+          </section>
 
+        </div>
       </div>
     </section>
 
