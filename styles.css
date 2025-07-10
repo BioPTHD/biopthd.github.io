@@ -146,3 +146,12 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
+.student-section {
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+}
+
+.student-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
