@@ -155,23 +155,22 @@ body {
   text-align: center;
   margin-bottom: 2rem;
 }
-.impressum {
-  background-color: #eee;
-  padding: 2rem 1rem;
+.footer-link {
+  text-align: center;
   font-size: 0.9rem;
-  color: #444;
+  padding: 1rem 0;
+  background-color: #f0f0f0;
 }
 
-.impressum h4 {
-  margin-top: 0;
-  font-weight: 600;
-}
-
-.impressum a {
+.footer-link a {
   color: #0073e6;
   text-decoration: none;
 }
 
-.impressum a:hover {
+.footer-link a:hover {
   text-decoration: underline;
+}
+
+.impressum-page {
+  padding: 2rem 1rem;
 }
