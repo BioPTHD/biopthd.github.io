@@ -10,12 +10,6 @@
 
   <main>
 
-    <section class="hero">
-      <div class="page-wrapper">
-        <img id="photo" src="bioptgroup2.jpg" alt="BioPT Group Photo">
-      </div>
-    </section>
-
     <section class="labinfo">
       <div class="page-wrapper">
         <div class="labinfo-header">
@@ -25,6 +19,12 @@
             <p>Heidelberg Ion Beam Therapy Center (HIT) · Heidelberg, Germany</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="page-wrapper">
+        <img id="photo" src="bioptgroup2.jpg" alt="BioPT Group Photo">
       </div>
     </section>
 
@@ -45,113 +45,157 @@
       </div>
     </section>
 
+    <section id="open-positions" class="student-section">
+      <div class="page-wrapper">
+        <h2>Open Positions</h2>
+        <section class="position-group flashvivo-group">
+          <h3 class="position-group-title">FLASHVIVO Project Positions</h3>
+          <p class="section-intro">
+            FLASHVIVO is a collaborative research and development project focused on real-time, in-vivo PET
+            verification and biological guidance for FLASH particle therapy. Within the project, BioPT contributes
+            Monte Carlo modeling, activity prediction, data analysis and experimental validation workflows to help
+            verify treatment delivery under ultra-high dose rate conditions.
+          </p>
+          <p class="source-link">
+            More about FLASHVIVO: <a href="https://terapet.ch/heidelberg-ion-beam-therapy-center-university-of-applied-sciences-giessen-eq-photonics-gmbh-and-terapet-sa-launch-flashvivo-to-enable-in-beam-pet-verification-and-biological-guidance-in-flash-partic/" target="_blank">TeraPet press release</a>
+          </p>
+          <div class="grid-container">
+
+            <section class="card">
+              <h3>Postdoctoral Researcher in Medical Physics / Monte Carlo Simulation for In-Beam PET and FLASH Particle Therapy (m/f/d)</h3>
+
+              <p class="date">Starting 01.06.2026 at the Heidelberg Ion Beam Therapy Center.</p>
+
+              <h4>Your Tasks</h4>
+              <ul>
+                <li>Further develop the in-house Monte Carlo engine MonteRay for the prediction of PET-related activity distributions in particle therapy.</li>
+                <li>Integrate FLUKA-based cross-section data and related models into the simulation and analysis pipeline.</li>
+                <li>Design, implement, and document software modules for PET activity prediction and tissue-specific biological washout.</li>
+                <li>Plan, support, and evaluate validation experiments with different phantom setups in close collaboration with project partners.</li>
+                <li>Coordinate reference calculations, comparison with measurement data, and quality assurance of the developed prediction and validation workflows.</li>
+                <li>Prepare scientific publications and present project results at national and international conferences.</li>
+              </ul>
+
+              <h4>Your Profile</h4>
+              <ul>
+                <li>PhD in physics, medical physics, computer science, mathematics, engineering, or a related field.</li>
+                <li>Experience in scientific software development; knowledge of C++, Python, or comparable programming languages is an advantage.</li>
+                <li>Ability to familiarize yourself with existing C++-based scientific software and complex simulation workflows.</li>
+                <li>Experience with numerical methods, simulation, data analysis, or scientific modeling is desirable.</li>
+                <li>Independent and structured working style, very good English skills, and ability to work effectively in an interdisciplinary team.</li>
+              </ul>
+              <h4>Employment Conditions</h4>
+              <ul>
+                <li>Full-time position, fixed-term for two years.</li>
+                <li>Remuneration according to TV-L E13, 100%; the final salary level depends on relevant professional experience.</li>
+              </ul>
+              <p class="contact">
+                Contact: <a href="mailto:andrea.mairani@med.uni-heidelberg.de">Prof. Dr. Andrea Mairani, andrea.mairani@med.uni-heidelberg.de</a>
+              </p>
+            </section>
+
+            <section class="card">
+              <h3>Student Research Assistant in Medical Physics / Monte Carlo Simulation and Experimental Support (m/f/d)</h3>
+
+              <p class="date">Starting 01.06.2026 at the Heidelberg Ion Beam Therapy Center.</p>
+
+              <h4>Your Tasks</h4>
+              <ul>
+                <li>Support Monte Carlo simulation and data analysis for PET-based treatment verification in particle therapy.</li>
+                <li>Contribute to the generation, validation, and organization of simulation and measurement data.</li>
+                <li>Assist in the implementation and application of data analysis methods for comparing predicted and measured PET signals.</li>
+                <li>Support the preparation and execution of experimental studies with different phantom setups.</li>
+                <li>Document workflows and results in a structured and reproducible manner.</li>
+              </ul>
+
+              <h4>Your Profile</h4>
+              <ul>
+                <li>Ongoing university studies in physics, medical physics, computer science, mathematics, engineering, or a related field.</li>
+                <li>Initial experience in programming, data analysis, or scientific computing; knowledge of Python, C++, MATLAB, Julia, or comparable tools is an advantage.</li>
+                <li>Interest in learning to work with scientific software, simulation workflows, and data analysis pipelines.</li>
+                <li>Careful, structured, and reliable working style.</li>
+                <li>Good German or English skills and ability to work well in an interdisciplinary team.</li>
+              </ul>
+              <h4>Employment Conditions</h4>
+              <ul>
+                <li>Student assistant position for the FLASHVIVO project period, initially limited to two years.</li>
+                <li>Working time by agreement and within the maximum permitted scope for student and scientific assistants at Heidelberg University.</li>
+                <li>Remuneration according to the applicable Heidelberg University rates for student and graduate assistants; the hourly rate depends on degree status.</li>
+              </ul>
+              <p class="contact">
+                Contact: <a href="mailto:andrea.mairani@med.uni-heidelberg.de">Prof. Dr. Andrea Mairani, andrea.mairani@med.uni-heidelberg.de</a>
+              </p>
+            </section>
+
+          </div>
+        </section>
+
+        <section id="projects" class="position-group">
+          <h3 class="position-group-title">Master's Thesis Positions</h3>
+          <div class="grid-container">
+
+            <section class="card">
+              <h3>Master's Thesis: GPU-Accelerated Monte Carlo Dose Calculation</h3>
+            <p>
+              Fast and accurate Monte Carlo dose calculation is an important step toward adaptive particle therapy,
+              including future workflows guided by in-room MRI. In this project, you will contribute to accelerating
+              the in-house MonteRay dose engine on GPUs. The work can include profiling, identifying suitable
+              parallelization strategies, implementing selected components for GPU execution, and testing the resulting
+              speedup and accuracy. A particular focus is dose calculation in complex magnetic fields, where fast and
+              flexible research software can open possibilities beyond current clinical tools.
+            </p>
+            <h4>Requirements</h4>
+            <ul>
+              <li>Ongoing Master's studies in physics, medical physics, computer science, mathematics, engineering, or a related field.</li>
+              <li>Experience with programming or scientific computing in any language; C++, Python, Julia, MATLAB, or comparable tools are all useful.</li>
+              <li>Interest in learning to work with C++-based scientific software, Linux, Git, and CMake.</li>
+              <li>First experience with CUDA, GPU computing, or parallel programming concepts is helpful but not mandatory.</li>
+              <li>Good English skills and a careful, structured working style.</li>
+            </ul>
+            <p class="date">Posted: 27.04.2026</p>
+            <p class="contact">
+               Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
+            </p>
+            </section>
+
+            <section class="card">
+              <h3>Master's Thesis: Mini-Beam Oxygen Ion Therapy in MonteRay</h3>
+            <p>
+              Mini-beam therapy uses spatially fractionated dose distributions to spare healthy tissue while maintaining
+              strong tumor control. Oxygen ions are especially interesting for this approach because they combine sharp
+              physical dose distributions with high biological effectiveness. In this project, you will help extend
+              MonteRay for oxygen ion and mini-beam therapy studies. Possible tasks include integrating interaction data,
+              setting up mini-beam geometries, running and analyzing simulations, and comparing results with experimental
+              measurements where available.
+            </p>
+            <h4>Requirements</h4>
+            <ul>
+              <li>Ongoing Master's studies in physics, medical physics, computer science, mathematics, engineering, or a related field.</li>
+              <li>Experience with programming, data analysis, or scientific computing in any language.</li>
+              <li>Interest in particle therapy, Monte Carlo simulation, treatment planning, or experimental validation.</li>
+              <li>Willingness to learn to work with scientific software, Linux, Git, and CMake.</li>
+              <li>Good English skills and a careful, structured working style.</li>
+            </ul>
+            <p class="date">Posted: 27.04.2026</p>
+            <p class="contact">
+              Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
+            </p>
+            </section>
+
+          </div>
+        </section>
+      </div>
+    </section>
+
     <section class="general-contact">
       <div class="page-wrapper">
         <h3>General Inquiries</h3>
         <p>
           For general questions or if you're interested in joining the group, please contact:<br>
-          <a href="mailto:andrea.mairani@med.uni-heidelberg.de">Prof. Dr. Andrea Mairani — andrea.mairani@med.uni-heidelberg.de</a>
+          <a href="mailto:andrea.mairani@med.uni-heidelberg.de">Prof. Dr. Andrea Mairani, andrea.mairani@med.uni-heidelberg.de</a>
         </p>
       </div>
     </section>
-
-    <section id="projects" class="project-section">
-      <div class="page-wrapper">
-        <h2>Available Master's Thesis Projects</h2>
-        <div class="grid-container">
-
-          <section class="card">
-            <h3>GPU-Accelerated Monte Carlo Dose Calculation</h3>
-            <p>
-              GPU acceleration is essential to bring Monte Carlo dose calculation into real-time clinical workflows,
-              especially for adaptive treatments guided by in-room MRI. This project focuses on porting the MonteRay dose engine
-              to GPUs to achieve a 10–20× speedup. The work involves profiling, parallelization, and CUDA development,
-              with the goal of enabling second-scale dose computation even in the presence of complex magnetic fields.
-              Special focus will be on handling inhomogeneous magnetic fields, which are unsupported by current clinical engines.
-            </p>
-            <h4>Requirements</h4>
-            <ul>
-              <li>Very good English skills</li>
-              <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
-              <li>Strong C++ and CUDA skills</li>
-              <li>Background in particle physics, medical physics, or computer science is a plus</li>
-            </ul>
-            <p class="date">Posted: 09/07/2025</p>
-            <p class="contact">
-               More information: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
-            </p>
-          </section>
-
-          <section class="card">
-            <h3>Mini-Beam Oxygen Ion Therapy in MonteRay</h3>
-            <p>
-              Mini-beams can reduce damage to healthy tissue by spatially fractionating the dose,
-              potentially improving tolerance in sensitive regions. Oxygen ions provide sharper dose distributions and
-              greater biological effectiveness than protons or carbon, making them attractive for resistant tumors.
-              This project extends MonteRay to support oxygen ion therapy and mini-beam treatment planning,
-              including nuclear interaction data for oxygen and relevant filter materials,
-              and implementing mini-beam geometry simulation. May include experimental validation.
-            </p>
-            <h4>Requirements</h4>
-            <ul>
-              <li>Very good English skills</li>
-              <li>Experience with scripting (e.g., Python), Linux, Git, and CMake</li>
-              <li>Background in particle physics, medical physics, or computer science is a plus</li>
-            </ul>
-            <p class="date">Posted: 09/07/2025</p>
-            <p class="contact">
-              More information: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
-            </p>
-          </section>
-
-        </div>
-      </div>
-    </section>
-    <section id="student-assistants" class="student-section">
-  <div class="page-wrapper">
-    <h2>Student Assistant Position (HiWi)</h2>
-    <section class="card">
-      <h3>Front-End Development Student Assistant</h3>
-
-      <h4>Role Overview</h4>
-      <p>
-        Turn our C++ dose calculation engine into a simple web interface.
-        You don’t need to be a frontend expert. If you’re a strong programmer (any language) with basic HTML/CSS/JS knowledge,
-        we trust you’ll pick up the rest on the job.
-      </p>
-
-      <h4>Responsibilities</h4>
-      <ul>
-        <li>Build and style web pages that call our backend program</li>
-        <li>Implement basic interactivity (buttons, forms, simple canvas drawing)</li>
-        <li>Display data plots or images fetched from a server</li>
-      </ul>
-
-      <h4>Required Skills</h4>
-      <ul>
-        <li>Strong programming ability in any language (C++, Python, Java, etc.)</li>
-        <li>Familiarity with web fundamentals: HTML, CSS and JS</li>
-        <li>Willingness to learn and experiment with new libraries/frameworks</li>
-
-      </ul>
-      <h4>Bonus (not mandatory)</h4>
-      <ul>
-        <li>Basic experience with data visualization (Chart.js, D3, Plotly)</li>
-        <li>Prior use of Git for version control</li>
-      </ul>
-
-      <h4>What You’ll Gain</h4>
-      <ul>
-        <li>Hands-on experience bridging C++ backends with web UIs</li>
-        <li>Mentorship in both backend and frontend technologies</li>
-        <li>Flexibility to work at your own pace around your studies</li>
-      </ul>
-      <p class="contact">
-        Contact: <a href="mailto:peter.lysakovski@uni-heidelberg.de">peter.lysakovski@uni-heidelberg.de</a>
-      </p>
-    </section>
-  </div>
-</section>
 </main>
 <footer class="footer-link">
   <div class="page-wrapper">
